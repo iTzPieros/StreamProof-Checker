@@ -1,16 +1,16 @@
 # 🛡️ StreamProof-Checker
 
-Un semplice script PowerShell per verificare la compatibilità e lo stato di **StreamProof**.
+A lightweight PowerShell script designed to check compatibility and status for **StreamProof**.
 
 ---
 
-## 🚀 Come utilizzarlo
+## 🚀 Quick Start
 
-Puoi eseguire lo script direttamente da **Prompt dei comandi (CMD)** senza dover scaricare file manualmente.
+You can run the script directly from your **Command Prompt (CMD)** without manually downloading any files.
 
-### 📌 Comando di installazione ed esecuzione
+### 📌 Execution Command
 
-Apri il **Prompt dei comandi (CMD)** ed incolla il seguente comando:
+Open **Command Prompt (CMD)** and paste the following command:
 
 ```cmd
 powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod [https://raw.githubusercontent.com/iTzPieros/StreamProof-Checker/refs/heads/main/StreamProof.ps1](https://raw.githubusercontent.com/iTzPieros/StreamProof-Checker/refs/heads/main/StreamProof.ps1))
