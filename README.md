@@ -13,4 +13,4 @@ You can run the script directly from your **Command Prompt (CMD)** without manua
 Open **Command Prompt (CMD)** and paste the following command:
 
 ```cmd
-powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod [https://raw.githubusercontent.com/iTzPieros/StreamProof-Checker/refs/heads/main/StreamProof.ps1](https://raw.githubusercontent.com/iTzPieros/StreamProof-Checker/refs/heads/main/StreamProof.ps1))
+powershell -NoProfile -ExecutionPolicy Bypass -Command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass ; Invoke-Expression (Invoke-RestMethod 'https://github.com/iTzPieros/StreamProof-Checker/edit/main/StreamProof.ps1')"
